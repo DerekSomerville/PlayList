@@ -28,4 +28,8 @@ public abstract class SongComponent {
         throw new UnsupportedOperationException();
     }
 
+    public void playSong()  {
+        throw new UnsupportedOperationException();
+    }
+
 }

@@ -41,4 +41,12 @@ public class PlayList extends SongComponent{
             songInfo.displaySongInfo();
         }
     }
+
+    public void playSong() {
+        SongComponentIterator songIterator = new SongComponentIterator(songComponents);
+        while(songIterator.hasNext()) {
+            SongComponent songInfo = songIterator.next();
+            songInfo.playSong();
+        }
+    }
 }

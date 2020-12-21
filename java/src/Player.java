@@ -9,4 +9,6 @@ public class Player {
     public void displaySongInfo(){
         songList.displaySongInfo();
     }
+
+    public void playSong() { songList.playSong();}
 }
